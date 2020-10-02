@@ -10,6 +10,6 @@
 
 ### network switch & router
 
-- `10.7.29.128`  emilia(edge L2 switch)
-- `10.7.29.129`  rem(edge L2 switch)
-- `10.7.29.130`  beatrice(core L2 switch)
+- `10.7.29.128`  emilia(edge L3 switch)
+- `10.7.29.129`  rem(edge L3 switch)
+- `10.7.29.130`  beatrice(core L3 switch)
