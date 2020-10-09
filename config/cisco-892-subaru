@@ -1,5 +1,5 @@
 !
-! Last configuration change at 09:53:06 UTC Fri Oct 9 2020
+! Last configuration change at 10:02:51 UTC Fri Oct 9 2020
 !
 version 15.4
 service timestamps debug datetime msec
@@ -83,24 +83,31 @@ interface GigabitEthernet0
  no ip address
 !
 interface GigabitEthernet1
+ switchport access vlan 20
  no ip address
 !
 interface GigabitEthernet2
+ switchport access vlan 20
  no ip address
 !
 interface GigabitEthernet3
+ switchport access vlan 20
  no ip address
 !
 interface GigabitEthernet4
+ switchport access vlan 20
  no ip address
 !
 interface GigabitEthernet5
+ switchport access vlan 20
  no ip address
 !
 interface GigabitEthernet6
+ switchport access vlan 20
  no ip address
 !
 interface GigabitEthernet7
+ switchport access vlan 20
  no ip address
 !
 interface GigabitEthernet8
