@@ -1,6 +1,6 @@
 !
-! Last configuration change at 12:35:05 UTC Tue Jan 25 2000
-! NVRAM config last updated at 12:35:05 UTC Tue Jan 25 2000
+! Last configuration change at 11:27:21 UTC Tue Feb 1 2000
+! NVRAM config last updated at 11:27:22 UTC Tue Feb 1 2000
 !
 version 15.2
 no service pad
@@ -52,8 +52,10 @@ vlan internal allocation policy ascending
 !
 !
 interface GigabitEthernet0/1
+ switchport access vlan 10
 !
 interface GigabitEthernet0/2
+ switchport access vlan 10
 !
 interface GigabitEthernet0/3
 !
@@ -76,15 +78,23 @@ interface GigabitEthernet0/11
 interface GigabitEthernet0/12
 !
 interface GigabitEthernet0/13
+ switchport access vlan 10
 !
 interface GigabitEthernet0/14
+ switchport access vlan 10
 !
 interface GigabitEthernet0/15
 !
 interface GigabitEthernet0/16
 !
 interface Vlan1
+ no ip address
+!
+interface Vlan10
  ip address 10.7.29.128 255.255.0.0
+!
+interface Vlan20
+ no ip address
 !
 ip forward-protocol nd
 ip http server
