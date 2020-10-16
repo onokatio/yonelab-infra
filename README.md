@@ -20,3 +20,16 @@
 
 - VLAN 10 : connected direct to wall port
 - VLAN 20 : NAPTed lan
+
+## radio assign
+
+### 2.4Ghz
+
+- Buffalo WSR-2533: 1~7
+- Aterm WG2600: 7~14
+
+### 5Ghz
+
+- Buffalo WSR-2533: W52 36~48ch
+- Aterm WG2600: W56 100~112ch
+- Aterm WR9500N: W54
